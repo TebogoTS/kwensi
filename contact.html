@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel= "stylesheet" href= "star.css">
+<title> My_Website </title>
+</head>
+<body style="background-color: #3AAFA9;">
+
+<div class="topnav">
+       <a href="home.html"> Home</a>
+	   <a href="about.html"> About </a>
+	      <a href="family.html">Family</a>
+		  <a href="future.html"> Future</a>
+		   <a class="active" href="#home">Contact</a>
+</div> 
+<h3><center>Contact Form</h3></center>
+
+<div class="container" id="contact-div">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+     <label for="e-email">E-email</label>
+    <input type="text" id="e-email" name="e-email" placeholder="Your e-email..">
+
+  <label for="Tnumber">Telephone Number</label>
+    <input type="text" id="telephonenumber" name="telephonenumber" placeholder="Your telephone number..">
+	
+  <label for="Cnumber">Contact Number</label>
+    <input type="text" id="contactnumber" name="contactnumber" placeholder="Your contact number..">
+
+    <label for="country">Province</label>
+    <select id="country" name="country">
+       <option value="australia">Eastern-Cape</option>
+       <option value="canada">FreeState</option>
+       <option value="usa">Gauteng</option>
+	   <option value="usa">KwaZulu-Natal</option>
+	   <option value="usa">Limpopo</option>
+	   <option value="usa">Mpumalanga</option>
+	   <option value="usa">Northern-Cape</option>
+       <option value="usa">North-West</option>
+	   <option value="usa">Western-Cape</option>
+
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+  <footer>
+			     <p> &copy Designed By Relebogile </p>
+			     <p> @ Developed By Relebogile </p>
+			 </footer>		
+</body>
+</html>

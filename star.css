@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Tapestry&family=Ubuntu:wght@400;500;700&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C5C6C7;
+}
+.main-content {
+  padding: 20px;
+}
+ h2 {
+	color: #895061;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #25274D;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position:relative;
+  margin: 0;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: light grey;
+  color: #2E9CCA;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers&family';
+  font-size: 15px;
+}
+#contact-div {
+  margin-left: 25%;
+}
+h1 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Bangers&family';
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	color: darkgray;
+	font-family: 'Bangers&family';
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+
+}
+
+
+
+.circular--portrait {
+	position: relative; 
+	width: 200px;
+	height: 200px; 
+	overflow:hidden;
+	border-radius: 50%; 
+	} 
+	.circular--portrait img { 
+	width: 100%; 
+	height: auto;
+	}
+	
+	h2 {
+	color: white;
+}
+h3 {
+	color:#66FCF1;
+}
+
+	
+	.container {
+  width: 50%;
+  background-color: #;
+}
+
+
+img {
+	float:right;
+	width: 200;
+	height: 100;
+}
+img {
+	  float:right;
+	  width: 200;
+	  height: 100;
+}
+img {
+ float:right;
+ width: 200;
+ height: 100;
+}
+  table, th, td {
+           border:1px solid black;
+           }
+		   table {
+		   width:100%;
+		   }
+	skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #45A29E;}
+.css {width: 80%; background-color: #45A29E;}
+.js {width: 65%; background-color: #45A29E;}
+.php {width: 60%; background-color: #45A29E;}
+
+* {
+  box-sizing: border-box;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+  font-family: 'Bangers&family';
+}
+}
+h2 {
+color: #5D001E;
+font-family:  'Ubuntu';
+}
+h4 {
+color: #E3E2DF;
+background-color #EE4C7C;
+font-family: 'Bangers&family';
+}
+h3 {
+font-family: 'Bangers&family';
+}
+h5 {
+text-align: right;
+font-family: 'Poppins';
+}
+p {
+color: #EE4C7C;
+font-family: 'Ubuntu';
+}
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:#66FCF1;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#66FCF1;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+img {
+	 width: 400px;
+	 float: right;
+}
+p {
+	font-family: 'Ubuntu';
+	color: #25274D;
+}
+h3 {
+	color:#66FCF1;
+}
+h4 {
+	color: #25274D;
+}
+h5{
+text-align: right;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+ol {
+	color: black;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ 
+  }
+
+input[type=submit] {
+  background-color: #3AAFA9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #17252A;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #DEF2F1;
+  padding: 20px;
+  background-size: cover;
+}
